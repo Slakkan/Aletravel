@@ -1,0 +1,11 @@
+.hotel-card {
+    display: block;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 12px;
+    overflow: hidden;
+    &__name{
+        text-align: center;
+        font-weight: bold;
+    }
+}

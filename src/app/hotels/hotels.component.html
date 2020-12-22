@@ -1,0 +1,8 @@
+<div class="d-flex flex-wrap">
+    <div class="hotel-card" *ngFor="let hotel of hotels">
+        <div class="hotel-card__name">
+            {{ hotel.name }}
+        </div>
+        <img [src]="hotel.img" alt="your browser sucks">
+    </div>
+</div>

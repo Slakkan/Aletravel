@@ -31,9 +31,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/settings"
+              ]
+            }
           },
           "configurations": {
             "production": {
@@ -127,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "aletravel"
+  "defaultProject": "aletravel",
+  "cli": {
+    "analytics": "11afe9c7-4363-410a-b1fa-007935cf7cbf"
+  }
 }
